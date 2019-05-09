@@ -6860,6 +6860,9 @@ input {
 .currency {
   font-size: 18px !important;
 }
+#guarantee article {
+  text-align: center;
+}
 @media (max-width: 991px) {
   .navigation-header .navigation-bar li a {
     color: white !important;
