@@ -6857,6 +6857,9 @@ input {
 .section.feedback-controls-section .switch p {
   color: black !important;
 }
+.currency {
+  font-size: 18px;
+}
 @media (max-width: 991px) {
   .navigation-header .navigation-bar li a {
     color: white !important;
