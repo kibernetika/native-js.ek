@@ -6858,7 +6858,7 @@ input {
   color: black !important;
 }
 .currency {
-  font-size: 18px;
+  font-size: 18px !important;
 }
 @media (max-width: 991px) {
   .navigation-header .navigation-bar li a {
