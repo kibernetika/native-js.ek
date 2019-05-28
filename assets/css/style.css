@@ -6863,6 +6863,10 @@ input {
 #guarantee article {
   text-align: center;
 }
+footer .list-inline.socials .icon {
+  color: white !important;
+  font-width: bold !important;
+}
 @media (max-width: 991px) {
   .navigation-header .navigation-bar li a {
     color: white !important;
