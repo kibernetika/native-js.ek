@@ -2652,6 +2652,9 @@ input[type=checkbox]:focus {
   color: #ffffff;
 }
 @media (max-width: 1199px) {
+  .package-column {
+    padding-bottom: 50px;
+  }
   .package-column .package-detail {
     height: 425px;
   }
@@ -4082,6 +4085,11 @@ input[type=checkbox]:focus {
     opacity: 1;
   }
 }
+@media (max-width: 992px) {
+  .package-column .package-detail ul li {
+    border-bottom: 0;
+  }
+}
 @media (max-width: 991px) {
   .product-page .product .product-buy {
     padding-left: 15px;
@@ -4692,6 +4700,12 @@ td.cart-list-item-price {
 /* ----------------------------------------------------------------------------
     Header
 ---------------------------------------------------------------------------- */
+.padding-top {
+  padding-top: 50px;
+}
+.padding-bottom {
+  padding-bottom: 20px;
+}
 .navigation-header {
   position: absolute;
   top: 0;

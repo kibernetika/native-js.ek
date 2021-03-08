@@ -172,8 +172,14 @@
 }
 
 
-// Small devices
+// Medium devices
+@media (max-width: @screen-md) {
+    .package-column .package-detail ul li{
+        border-bottom: 0;
+    }
+}
 
+// Small devices
 @media (max-width: @screen-sm-max) {
     .product-page .product .product-buy {
         padding-left: 15px;
@@ -183,7 +189,6 @@
 
 
 // Extra small devices
-
 @media (max-width: @screen-xs-max) {
     .product-page .product .product-buy {
         margin: 70px auto 0;
